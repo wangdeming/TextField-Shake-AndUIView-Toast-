@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="请输入用户名.." textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="s6j-JJ-Yyw">
+                                <rect key="frame" x="213" y="115" width="136" height="30"/>
+                                <color key="backgroundColor" red="0.0" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="180" id="WUA-oO-LzX"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="WUA-oO-LzX"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=compact" misplaced="YES">
+                                    <rect key="frame" x="111" y="115" width="180" height="30"/>
+                                    <mask key="constraints">
+                                        <include reference="WUA-oO-LzX"/>
+                                    </mask>
+                                </variation>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="请输入密码..." textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="PMy-oS-j9o">
+                                <rect key="frame" x="213" y="198" width="136" height="30"/>
+                                <color key="backgroundColor" red="0.0" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="180" id="X0W-IA-oTP"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="X0W-IA-oTP"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=compact" misplaced="YES">
+                                    <rect key="frame" x="111" y="198" width="180" height="30"/>
+                                    <mask key="constraints">
+                                        <include reference="X0W-IA-oTP"/>
+                                    </mask>
+                                </variation>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1U0-MX-FvR">
+                                <rect key="frame" x="265" y="334" width="46" height="30"/>
+                                <state key="normal" title="登陆"/>
+                                <connections>
+                                    <action selector="login:" destination="BYZ-38-t0r" eventType="touchUpInside" id="wM6-40-HlG"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="s6j-JJ-Yyw" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="95" id="7QZ-ML-vjJ"/>
+                            <constraint firstItem="1U0-MX-FvR" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="CD0-A8-uet"/>
+                            <constraint firstItem="s6j-JJ-Yyw" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="RNf-tL-px3"/>
+                            <constraint firstItem="PMy-oS-j9o" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="TbW-0R-kxG"/>
+                            <constraint firstItem="PMy-oS-j9o" firstAttribute="top" secondItem="s6j-JJ-Yyw" secondAttribute="bottom" constant="53" id="ZTk-MF-LWe"/>
+                            <constraint firstItem="1U0-MX-FvR" firstAttribute="top" secondItem="PMy-oS-j9o" secondAttribute="bottom" constant="108" id="uZm-JW-dUo"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="7QZ-ML-vjJ"/>
+                                <exclude reference="RNf-tL-px3"/>
+                                <exclude reference="TbW-0R-kxG"/>
+                                <exclude reference="ZTk-MF-LWe"/>
+                                <exclude reference="CD0-A8-uet"/>
+                                <exclude reference="uZm-JW-dUo"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=compact">
+                            <mask key="constraints">
+                                <include reference="7QZ-ML-vjJ"/>
+                                <include reference="RNf-tL-px3"/>
+                                <include reference="TbW-0R-kxG"/>
+                                <include reference="ZTk-MF-LWe"/>
+                                <include reference="CD0-A8-uet"/>
+                                <include reference="uZm-JW-dUo"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <connections>
+                        <outlet property="password" destination="PMy-oS-j9o" id="aRw-Sz-0pD"/>
+                        <outlet property="username" destination="s6j-JJ-Yyw" id="NWm-iQ-xYn"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="328.5" y="428.25"/>
+        </scene>
+    </scenes>
+</document>
