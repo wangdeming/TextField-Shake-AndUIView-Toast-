@@ -2,8 +2,8 @@
 //  UITextField+Shake.m
 //  Shake
 //
-//  Created by lanouhn on 16/3/1.
-//  Copyright © 2016年 LGQ. All rights reserved.
+//  Created by 王德明 16/3/1.
+//  Copyright © 2016年 Apple. All rights reserved.
 //
 
 #import "UITextField+Shake.h"

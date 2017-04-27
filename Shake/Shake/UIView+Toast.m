@@ -2,7 +2,8 @@
 //  UIView+Toast.m
 //  Toast
 //
-//  Copyright 2014 Charles Scalesse.
+//  Created by 王德明 16/3/1.
+//  Copyright © 2016年 Apple. All rights reserved.
 //
 
 

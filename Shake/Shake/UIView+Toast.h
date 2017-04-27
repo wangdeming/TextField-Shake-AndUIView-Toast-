@@ -3,7 +3,8 @@
 UIView+Toast.h
 Toast
 
-Copyright (c) 2014 Charles Scalesse.
+Created by 王德明 16/3/1.
+Copyright © 2016年 Apple. All rights reserved.
  
 Permission is hereby granted, free of charge, to any person obtaining a
 copy of this software and associated documentation files (the
